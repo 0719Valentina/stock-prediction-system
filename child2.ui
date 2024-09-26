@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Child2</class>
+ <widget class="QWidget" name="Child2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>254</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>相关系数计算及热力图展示</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+font: 10pt &quot;楷体&quot;;
+background-color: rgb(233, 231, 227);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;楷体&quot;;</string>
+     </property>
+     <property name="text">
+      <string>请输入股票日期</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 231, 227);
+background-color: rgb(255, 255, 255);
+border-color: rgb(160, 160, 160);
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>选择股票代码</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QComboBox" name="comboBox">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 231, 227);
+background-color: rgb(255, 255, 255);
+border-color: rgb(160, 160, 160);
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="4">
+    <widget class="QGraphicsView" name="plotWidget">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 231, 227);
+background-color: rgb(255, 255, 255);
+border-color: rgb(160, 160, 160);
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

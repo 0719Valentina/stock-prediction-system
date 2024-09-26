@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Child1</class>
+ <widget class="QWidget" name="Child1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>股票价格K线图</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(233, 231, 227);
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;楷体&quot;;
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>请输入股票代码：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 231, 227);
+background-color: rgb(255, 255, 255);
+border-color: rgb(160, 160, 160);
+</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3" colspan="2">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="styleSheet">
+      <string notr="true">font: 12pt &quot;楷体&quot;;
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>请输入股票日期：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="5">
+    <widget class="QGraphicsView" name="plotWidget">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(233, 231, 227);
+background-color: rgb(255, 255, 255);
+border-color: rgb(160, 160, 160);
+</string>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 14pt &quot;楷体&quot;;
+background-color: transparent;</string>
+     </property>
+     <property name="text">
+      <string>股票价格可视化</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

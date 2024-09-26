@@ -1,0 +1,14 @@
+debug/child1.o
+debug/dialog.o
+debug/main.o
+debug/mainwindow.o
+debug/mainwindow2.o
+debug/pathselect.o
+debug/qcustomplot.o
+debug/stock.o
+debug/moc_child1.o
+debug/moc_dialog.o
+debug/moc_mainwindow.o
+debug/moc_mainwindow2.o
+debug/moc_pathselect.o
+debug/moc_qcustomplot.o

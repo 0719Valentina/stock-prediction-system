@@ -1,0 +1,16 @@
+debug/child1.o
+debug/child2.o
+debug/dialog.o
+debug/main.o
+debug/minheap.o
+debug/pathselect.o
+debug/predict.o
+debug/qcustomplot.o
+debug/stock.o
+debug/qrc_new.o
+debug/moc_child1.o
+debug/moc_child2.o
+debug/moc_dialog.o
+debug/moc_pathselect.o
+debug/moc_predict.o
+debug/moc_qcustomplot.o

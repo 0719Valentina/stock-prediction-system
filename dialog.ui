@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>428</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>0</y>
+     <width>501</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	background-color: rgb(255, 255, 255);
+}
+
+QFrame#frame{
+	border-image: url(:/new/prefix1/pic1.jpg);
+}
+
+#frame_2{
+border-radius:30px;
+	background-color: rgba(169, 169, 169, 160);
+}
+
+QLabel#label{
+	border-radius:30px;
+	background-color: rgba(122, 122, 122, 200);
+}
+
+#label_2{
+	background: transparent;
+	color:rgba(255, 255, 255, 200);
+	font: 14pt &quot;楷体&quot;;
+}
+
+QPushButton#pushButton{
+	border-radius:10px;
+	
+	font: 12pt &quot;楷体&quot;;
+	background-color: rgb(255, 255, 222);
+}
+
+#pushButton_2{
+	border-radius:10px;
+	
+	font: 12pt &quot;楷体&quot;;
+	background-color: rgb(255, 255, 222);
+}
+
+#pushButton_3{
+	border-radius:10px;
+	
+	font: 12pt &quot;楷体&quot;;
+	background-color: rgb(255, 255, 222);
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-10</y>
+      <width>511</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>130</y>
+       <width>301</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>150</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>楷体</family>
+       <pointsize>14</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>股票系统功能选择</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>210</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>当月价格K线图</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>270</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>相关系数计算及热力图</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>330</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>下月股价预测</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
